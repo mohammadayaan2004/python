@@ -4,7 +4,7 @@ print(a)
 b="Ayaan \tis good"
 print(b)
 
-c="Ayaan dcfv\rs good"#\ is not printed
+c="Ayaan\rs good"#\r is not printed
 print(c)
 
 d="Ayaan is \\good boy"

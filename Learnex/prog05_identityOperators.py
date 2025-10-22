@@ -16,4 +16,9 @@ c = int(input("Enter num from 1-2 based on operation that is required "))
 switch_Case(a, b, c)
 x = [1, 2, 3]
 y = [1, 2, 3]
+z = None
 print(x is y) # False because x and y are different objects in memory
+if z is None:
+    print("Yes")
+else:
+    print("No")
